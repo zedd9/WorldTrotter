@@ -42,8 +42,8 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func fahrenheitFieldEdiginChnaged(textField: UITextField){
-        if let text = textField.text, let value = Double(text){
-            fahrenheitValue = value
+        if let text = textField.text, let number = numberFormatter.number(from: text){
+            fahrenheitValue = number.doubleValue
         } else {
             fahrenheitValue = nil
         }
@@ -65,8 +65,11 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
             return false;
         }
         
-        let existingTextHasDecimalSeparator = currentText.rangeOfCharacter(from: CharacterSet(charactersIn: "."))
-        let repalcementTextHasDecimalSeparator = string.rangeOfCharacter(from: CharacterSet(charactersIn: "."))
+        let currentLocale = NSLocale.current
+        let decimalSeparator = currentLocale.decimalSeparator!
+        
+        let existingTextHasDecimalSeparator = currentText.rangeOfCharacter(from: CharacterSet(charactersIn: decimalSeparator))
+        let repalcementTextHasDecimalSeparator = string.rangeOfCharacter(from: CharacterSet(charactersIn: decimalSeparator))
         
         if existingTextHasDecimalSeparator != nil && repalcementTextHasDecimalSeparator != nil {
             return false

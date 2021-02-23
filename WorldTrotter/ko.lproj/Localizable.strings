@@ -1,0 +1,9 @@
+/* Hybrid map view */
+"Hybrid" = "하이브리드";
+
+/* Satellite map view */
+"Satellite" = "위성";
+
+/* Standard map view */
+"Standard" = "표준";
+

@@ -1,0 +1,24 @@
+/* Class = "UILabel"; text = "100"; ObjectID = "bEO-aG-3Cg"; */
+"bEO-aG-3Cg.text" = "100";
+
+/* Class = "UITextField"; placeholder = "Value"; ObjectID = "fzw-Vc-sMm"; */
+"fzw-Vc-sMm.placeholder" = "값";
+
+/* Class = "UITabBarItem"; title = "Web"; ObjectID = "kNn-aV-6Os"; */
+"kNn-aV-6Os.title" = "웹";
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "Lgo-3h-QTb"; */
+"Lgo-3h-QTb.title" = "변환";
+
+/* Class = "UILabel"; text = "degrees Fahrenheit"; ObjectID = "OkD-ql-FlH"; */
+"OkD-ql-FlH.text" = "화씨 온도";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "WBk-KI-9P2"; */
+"WBk-KI-9P2.text" = "는 실제로";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "x9H-7j-3u7"; */
+"x9H-7j-3u7.title" = "지도";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "ZeP-u6-FEx"; */
+"ZeP-u6-FEx.text" = "섭씨 온도";
+
